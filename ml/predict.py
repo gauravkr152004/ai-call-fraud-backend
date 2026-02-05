@@ -2,8 +2,8 @@ import sys
 import pickle
 
 # Load model
-model = pickle.load(open("ml/fraud_model.pkl", "rb"))
-vectorizer = pickle.load(open("ml/vectorizer.pkl", "rb"))
+model = pickle.load(open("fraud_model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # Read text from Node.js
 text = sys.argv[1]
